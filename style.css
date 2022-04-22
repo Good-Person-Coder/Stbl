@@ -36,7 +36,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: cursive
+    font-family: 'Ms Madi', cursive;
 }
 
 h2 {
@@ -50,6 +50,7 @@ h2 {
     padding: 50px;
     text-align: center;
     font-size: 42px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .line {
@@ -71,4 +72,21 @@ p {
     position: relative;
     text-align: center;
     vertical-align: middle;
+}
+.menu{
+    list-style:none;
+    position: absolute;
+    top:10px;
+    right:30px;
+    z-index:10;
+    cursor:pointer;
+}
+.links{
+    float:left;
+    padding-top: 5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom:5px;
+    font-family: fantasy;
+    font-size:20px;
 }
